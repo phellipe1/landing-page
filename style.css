@@ -17,7 +17,10 @@ ul{
     list-style-type: none;
 }
 li{
-    padding-right: 10px;
+    padding: 0 10px;
+}
+li:hover{
+    background: rgba(167, 166, 166, .9);
 }
 a{
     color: antiquewhite;
@@ -29,10 +32,28 @@ a:hover{
     font-weight: bolder;
 }
 section{
-    background-color: brown;
+    background: url("imgs/premium_photo-1661376641154-73989fa7e658.avif");
+    background-size: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    background-color: rgba(240, 248, 255, .8);
+    position: relative;
+    top: 5.5rem;
+    inset-inline-start: 5.5rem;
+    height: 230px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 20px;
 }
 footer{
     display: flex;
     justify-content: center;
     background-color: blue;
+    color: rgb(238, 238, 21);
+}
+.img-section{
+    height: 350px;
+    padding: 1rem 2rem;
 }
