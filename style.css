@@ -31,7 +31,7 @@ a:hover{
     font-size: larger;
     font-weight: bolder;
 }
-section{
+.section01{
     background: url("imgs/premium_photo-1661376641154-73989fa7e658.avif");
     background-size: auto;
     display: flex;
@@ -46,6 +46,57 @@ section{
     width: 500px;
     padding: 10px;
     border-radius: 20px;
+}
+.btn-saiba-mais{
+    margin-top: 20px;
+    border-radius: 30px;
+    width: 200px;
+    height: 40px;
+    background-color: yellow;
+}
+.btn-saiba-mais:hover{
+    box-shadow:  0 2px black;
+}
+.section02{
+    background-color: brown;
+}
+.img-section02{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.img-section02 div{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: static;
+    top: 0;
+    height: 160px;
+}
+.card{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.credit-card{
+    
+    width: 160px;
+    background: url("imgs/cb2d1628323677.5637320b1941e.png") 0 2510px;
+}
+.coffe{
+    
+    width: 160px;
+    background: url("imgs/cb2d1628323677.5637320b1941e.png") -263px 2510px;
+}
+.bag{
+    
+    width: 160px;
+    background: url("imgs/cb2d1628323677.5637320b1941e.png") -522px 2510px;
+}
+.smartphone{
+    
+    width: 160px;
+    background: url("imgs/cb2d1628323677.5637320b1941e.png") -780px 2510px;
 }
 footer{
     display: flex;
